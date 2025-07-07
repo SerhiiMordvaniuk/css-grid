@@ -1,5 +1,7 @@
 @import url(./basic.styles.css);
 
 .container {
-  display: inline-grid;
+  display: grid;
+  grid-template-columns: 150px auto 2fr 1fr;
+  gap: 25px;
 }
