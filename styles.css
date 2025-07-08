@@ -1,5 +1,8 @@
 @import url(./basic.styles.css);
 
 .container {
+  width: 800px;
   display: inline-grid;
+  gap: 25px;
+  grid-template-columns: 100px repeat(2, 1fr) 100px;
 }
