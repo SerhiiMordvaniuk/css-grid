@@ -1,5 +1,10 @@
 @import url(./basic.styles.css);
 
 .container {
-  display: inline-grid;
+  border: 5px solid black;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

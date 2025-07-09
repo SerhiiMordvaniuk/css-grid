@@ -39,16 +39,3 @@ h6 {
   background-color: #ff6f69;
   color: #ffeead;
 }
-
-.item p {
-  margin: 0 0 5px 0;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 35px;
-  border: 4px solid #000;
-  margin-bottom: 10px;
-}
